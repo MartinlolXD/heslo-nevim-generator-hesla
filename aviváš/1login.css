@@ -1,0 +1,80 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #2a2727;
+  }
+  
+  .active {
+    background-color: #000000;
+  }
+  .active:hover {
+        background-color: #2a2727;
+  }
+
+
+
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
+
+
+
+  .loginForm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+  }
+
+
+  .inputPassName{
+    display: flex;
+    margin-bottom: 10px;
+  }
+
+  .checkbox {
+    display: flex;
+
+  }
+
+  .input {
+    height: 5.5vh;
+    width: 50vh;
+    border-radius: 1vh;
+    font-size: larger;
+  }
+
+  .submitB {
+    height: 4.5vh;
+    background-color: rgb(7, 215, 7);
+    color: white;
+    border-radius: 1vh;
+    font-size: larger;
+  }
+
+  button {
+    height: 4.5vh;
+    background-color: rgb(7, 215, 7);
+    color: white;
+    border-radius: 1vh;
+    font-size: larger;
+  }
